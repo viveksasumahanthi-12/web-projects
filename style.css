@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(-45deg, #1e3c72, #2a5298, #f7971e, #ffd200);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.glass {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  color: white;
+}
+
+input.form-control::placeholder {
+  color: #ccc;
+}
